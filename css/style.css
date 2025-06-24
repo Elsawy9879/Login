@@ -1,0 +1,63 @@
+body {
+  background: #24353f;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.custom-nav {
+  background-color: #24353f;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  padding: 10px 0;
+  border-radius: 0;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #17a2b8 !important;
+}
+
+.navbar .nav-link.btn {
+  border-color: #ffc107;
+  color: #ffc107 !important;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.navbar .nav-link.btn:hover {
+  background-color: #ffc107;
+  color: #000 !important;
+}
+
+#home {
+  height: 75vh;
+}
+
+h1 {
+  color: #17a2b8;
+}
+
+.group {
+  background-color: #1d2d3c;
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+  border-radius: 10px;
+}
+
+input,
+textarea {
+  background-color: transparent !important;
+  color: #fff !important;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: rgb(182, 182, 182) !important;
+}
+
+input:focus,
+textarea:focus {
+  box-shadow: none !important;
+  border-color: #17a2b8;
+  outline: none;
+}
